@@ -1,0 +1,31 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE>Client-side Image Map Example</TITLE>
+</HEAD>
+<BODY>
+
+<H1 ALIGN="CENTER">Client-side Image Map Test</H1>
+
+<DIV ALIGN="CENTER">
+<!-- <IMG SRC="http://www.java2s.com/style/logo.png" USEMAP="#shapes" BORDER="0" WIDTH="400" HEIGHT="200"> -->
+    <IMG SRC="imagemap-hotspots.png" USEMAP="#shapes" BORDER="0" WIDTH="400" HEIGHT="200">
+</DIV>
+
+<!-- Start of Client Side Image Map -->
+
+<MAP NAME="shapes">
+
+<AREA SHAPE="RECT" COORDS="6,50,140,143" HREF="rectangle.htm" ALT="Rectangle">
+
+<AREA SHAPE="CIRCLE" COORDS="195,100,50" HREF="circle.htm" ALT="Circle">
+
+<AREA SHAPE="POLY" COORDS="255,122,306,53,334,62,338,0,388,77,374,116,323,171,255,122" HREF="polygon.htm" ALT="Polygon">
+
+<AREA SHAPE="default" HREF="defaultreg.htm">
+
+</MAP>
+
+</BODY>
+</HTML>
